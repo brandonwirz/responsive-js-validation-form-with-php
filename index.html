@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Form Validation with PHP</title>
+  </head>
+  <body>
+    <header>
+      <h2>JavaScript Contact Form with PHP</h2>
+    </header>
+        <div class="container">
+            <form name="bw-form" onsubmit="return validate()" action="send_form.php"
+               method="post">
+                <input type="text" name="first_name">
+                <input type="text" name="last_name">
+                <input type="text" name="email">
+                <textarea name="comments" placeholder="Comments"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+      <footer>
+        <div class="bottom-links">
+          <ul>
+            <li>About Us&nbsp;</li>
+            <li>Social&nbsp;</li>
+            <li>Contact Us&nbsp;</li>
+          </ul>
+        </div>
+      </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
